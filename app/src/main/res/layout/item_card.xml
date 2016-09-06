@@ -3,11 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
-
-    <com.zy.open.cardsview.slide.CardGroup
-        android:id="@+id/card_group"
+    <ImageView
+        android:id="@+id/iv_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
-    </com.zy.open.cardsview.slide.CardGroup>
+        android:layout_margin="30dip"
+        />
 </RelativeLayout>
