@@ -77,8 +77,7 @@ public class CardView<T extends Card> extends LinearLayout {
     }
 
     private void inflateConvertView(LayoutInflater inflater) {
-        convertView = inflater.inflate(layoutRes, null);
-        cardView.addView(convertView);
+        convertView = inflater.inflate(layoutRes, cardView, true);
         if (cardViewBinder != null) {
             cardViewBinder.bind(convertView, card);
         }
