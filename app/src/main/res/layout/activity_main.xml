@@ -2,12 +2,17 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
     >
 
     <com.zy.open.cardsview.slide.CardGroup
         android:id="@+id/card_group"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:paddingTop="30dp"
+        android:clipToPadding="false"
         >
     </com.zy.open.cardsview.slide.CardGroup>
 </RelativeLayout>

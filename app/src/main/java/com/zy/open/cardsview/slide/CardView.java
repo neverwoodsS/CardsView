@@ -43,6 +43,8 @@ public class CardView<T extends Card> extends LinearLayout {
         this.card = card;
         this.layoutRes = layoutRes;
         this.cardViewBinder = cardViewBinder;
+        this.setClipChildren(false);
+        this.setClipToPadding(false);
         setOrientation(LinearLayout.VERTICAL);
         compute();
         rootView = LayoutInflater.from(context).inflate(R.layout.card_bg, null);
